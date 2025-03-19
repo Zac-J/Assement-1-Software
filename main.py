@@ -72,7 +72,7 @@ questions = {
  "10.This reaction may cause sneezing, watery eyes, and cough in response to a foreign substance":"D",
 }
 
-options = [['A)The Youth', 'B)Older People', 'C)Babies'],
+options = [['A)Older People', 'B)The Youth', 'C)Babies'],
           ["A)Humerus", "B)Femur", "C)Tibia", "D)Pelvis"],
           ["A)Trapezius", "B)Deltold", "C)Pectoralis Major", "D)Latissimus Dorsi"],
           ["A)Dandruff","B)Blisters"],
@@ -97,7 +97,7 @@ print(")Basic Medical Sciences'")
 print(")Public Health and Preventive Medicine'")
 print(")Nursing'")
 print("-"*30)
-input("[Enter the medical subject you want to complete]")
+input("\033[36m[Enter the medical subject you want to complete]\033[0m")
 print("-"*30)
 print("\033[32mReady for the quiz {},they're coming.\033[0m".format(name))#test
 print("-"*30)
