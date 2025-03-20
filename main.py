@@ -48,14 +48,12 @@ def display_score(correct_guesses, guesses):
 
 #------------------------
 def play_again():
-
-    response = input("\033[32m----Reopen it to play again----\033[0m")
-    response = response.upper()
+    response = input("\033[32m----Type 'yes' to play again----\033[0m")
 
     if response == "yes":
         return True
     else:
-        return False
+        print("\033[32mByeeeeee!\033[0m")
 #------------------------
 
 
@@ -104,7 +102,5 @@ print("-"*30)
 input("\033[32m<#Press any button to continue#>\033[0m")
 new_game()
 
-while play_again():
+while play_again() == True:
     new_game()
-
-print("\033[32mByeeeeee!\033[0m")
