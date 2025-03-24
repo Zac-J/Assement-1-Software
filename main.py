@@ -57,7 +57,7 @@ def play_again():
 #------------------------
 
 
-questions = {
+questions = {#question store
  "1.Who is more at risk of coronavirus?": "A",
  "2.What's the largest bone in the human boday?": "B",
  "3.Which muscle is responsible for the movement of the shoulder joint?": "B",
